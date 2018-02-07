@@ -1,0 +1,17 @@
+{
+  "name": "now-playing",
+  "version": "1.0.0",
+  "description": "A radio DJ is mixing out from song A and into song B. The listener indicates they like the current song - which one are they talking about? Now-Playing is a crack at answering that question by finding similarities between the current buffer and other parts of both songs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Watkinson",
+  "license": "ISC",
+  "dependencies": {
+    "fft-js": "0.0.9",
+    "mz": "^2.4.0",
+    "node-correlation": "^1.0.2",
+    "wav-decoder": "^1.1.0"
+  }
+}
